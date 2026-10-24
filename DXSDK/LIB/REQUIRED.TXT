@@ -1,0 +1,7 @@
+Files to place in this folder (DXSDK\LIB\) - see BUILDING.md, section 1.
+
+From the DirectX 2 SDK (Microsoft Developer Network Development Platform, July 1996, disc 1),
+its DIRECTX2\SDK\LIB folder:
+
+  DSOUND.LIB         3446 bytes  sha256 603c0381ef47a8a093055bcb7359369f34564382af90488bcb97c32c0d7c38db
+      import library

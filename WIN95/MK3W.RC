@@ -1,0 +1,27 @@
+// MK3W.RC - resources of mk3w.exe.
+//
+// Reconstructed from the retail executable (language 1033). The menu is a
+// leftover of development: the window is created without it. WinMain also
+// loads accelerator table 101, which the retail executable does not contain.
+
+#include <windows.h>
+
+102 MENU
+BEGIN
+    POPUP "Display"
+    BEGIN
+        MENUITEM "Toggle Display Modes Up\tF5",     40004
+        MENUITEM "Toggle Display Modes Down\tF6",   40005
+        MENUITEM SEPARATOR
+        MENUITEM "GDI StretchBlt/BitBtl",           40011
+        MENUITEM "GDI StretchBlt Full Screen",      40015
+        MENUITEM SEPARATOR
+        MENUITEM "DDraw 320x240 16Bit Color",       40007
+        MENUITEM "DDraw 640x480 DDraw Stretch",     40008
+        MENUITEM "DDraw 640x480 Transparent Stretch", 40009
+        MENUITEM "DDraw 640x480 Even Scanlines ",   40017
+    END
+END
+
+// after the menu: retail's resource data has the menu first
+104 ICON "MK3W.ICO"

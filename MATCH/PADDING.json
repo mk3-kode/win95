@@ -1,0 +1,181 @@
+{
+ "game": {
+  "MKOS": {
+   "@top": 1
+  },
+  "BKGDSBST": {
+   "@top": 23
+  },
+  "MKAMODE": {},
+  "MKANI": {
+   "animate2": 15,
+   "do_first_a9_frame": 17
+  },
+  "MKBKGD": {
+   "@top": 3,
+   "H:MKBKGD.H|long .scrtab;": 15,
+   "add_block": 2,
+   "scroll_choose": 15,
+   "I:display_add|WORD done=FALSE;": 4,
+   "display_add": 11
+  },
+  "MKBOSS": {
+   "H:SYSTEM.H": 3,
+   "@top": 29
+  },
+  "MKCANNED": {
+   "H:SYSTEM.H": 14,
+   "@top": 18
+  },
+  "MKDRONE": {
+   "@top": 23
+  },
+  "MKFADE": {
+   "@top": 3
+  },
+  "MKFATAL": {
+   "@top": 2,
+   "post_sliced_up": 10,
+   "slice_fall": 22
+  },
+  "MKFX": {
+   "@top": 3,
+   "fx_animality": 28
+  },
+  "MKGUYS": {
+   "H:SYSTEM.H": 11,
+   "@top": 21
+  },
+  "MKJOY": {
+   "@top": 5,
+   "H:SYSTEM.H": 14,
+   "H:MKGAME.H|OBJECT .p1_obj;": 17,
+   "joy_proc": 17
+  },
+  "MKMAIN": {
+   "H:MKGAME.H|WORD round_num;": 28,
+   "H:MKOS.H|PROCESS .current_proc;": 32
+  },
+  "MKMARK": {
+   "@top": 23,
+   "hidden_game": 29,
+   "follow_path": 3,
+   "fp_9d": 29
+  },
+  "MKOBJ": {
+   "@top": 26,
+   "H:MKBKGD.H|WORD f_skew;": 33,
+   "insert_object": 32
+  },
+  "MKOPT": {
+   "H:MKOS.H|^typedef struct process": 13,
+   "H:MKINIT.H|JOYPAD swcurr;": 3,
+   "Only2Buttons": 9,
+   "kontrol_opt_proc": 7
+  },
+  "MKPROP": {
+   "H:SYSTEM.H": 2,
+   "@top": 30
+  },
+  "MKREACT": {
+   "@top": 25,
+   "H:SYSTEM.H": 4
+  },
+  "MKSCORE": {
+   "@top": 28
+  },
+  "MKSONY": {
+   "@top": 3
+  },
+  "MKSTAT": {
+   "@top": 2
+  },
+  "MKUTIL": {
+   "@top": 8,
+   "H:MKOS.H|^typedef struct process": 3,
+   "H:MKGAME.H|OBJECT .p1_obj;": 28,
+   "is_he_right": 30,
+   "change_oid_list": 2,
+   "lineup_1pwm": 1,
+   "back_to_shang_form": 14,
+   "unimmune_mpp": 4
+  },
+  "MKVS": {
+   "H:SYSTEM.H": 20,
+   "@top": 12
+  },
+  "MKZAP": {
+   "@top": 4,
+   "H:SYSTEM.H": 1
+  },
+  "MOVES": {
+   "buttons_in_a2": 2,
+   "@top": 33,
+   "H:MKGAME.H|__EXTERN__\\ OBJECT\\ \\*p1_obj;": 32,
+   "illegal_button_check": 2,
+   "air_strike": 32
+  },
+  "VALLOC": {
+   "vsearch_rect": 31,
+   "vmark_rect": 1
+  },
+  "MKSOUND": {
+   "H:MKOS.H|__EXTERN__\\ PROCESS\\ \\*current_proc;": 5
+  }
+ },
+ "layer": {
+  "FLICFILE": {
+   "FlicBufferSize": 10,
+   "FlicReadUncompFrame": 31
+  },
+  "PSXCDWIN": {
+   "=play_end": 9,
+   "psxcd_seek_for_play_at": 27,
+   "psxcd_play_at": 3,
+   "psxcd_play_at_andloop": 2
+  },
+  "POLYSCAL": {
+   "@top": 15,
+   "ScaleQuad": 13
+  },
+  "PSXEMU": {
+   "@top": 76,
+   "=clut_max": 17,
+   "DrawFlatQuadWide": 58,
+   "DrawTexQuad": 127,
+   "DrawTexQuadWide": 6,
+   "LoadTPage": 4
+  },
+  "KLUDGPIC": {},
+  "JOYSTICK": {
+   "@top": 12
+  },
+  "WINVIDEO": {
+   "Win95_FillRect": 4
+  },
+  "WINDDSND": {
+   "@top": 10,
+   "Win95_InitDirectSound": 1,
+   "I:Wav95_ReleaseWav|int i;": 1,
+   "Wav95_StopWavAll": 4
+  },
+  "WINDDRAW": {
+   "@top": 16,
+   "H:WINDDRAW.H|^extern RECT WindowRect;": 2
+  },
+  "WINMAIN": {}
+ },
+ "sound": {
+  "BUILDSND": {
+   "A:^#include \"\\.\\./emulator/inc/stdstuff\\.h\"": 54
+  },
+  "WAVE": {
+   "A:^#include \"windowsx\\.h\"": 13
+  }
+ },
+ "headers": {
+  "STDSTUFF.H": {
+   "B:^#endif // __STDSTUFF_H": 15
+  }
+ }
+}

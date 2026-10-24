@@ -1,0 +1,21 @@
+Files to place in this folder (MSVC20\INCLUDE\) - see BUILDING.md, section 1.
+
+From Microsoft Visual C++ 2.0 (32-bit edition, 2.00.4244, 1994), the CD's MSVC20\INCLUDE folder:
+the headers the build's C files include from it (the C run-time headers,
+and two Windows headers the Win32 SDK below does not replace).
+
+  CTYPE.H            8618 bytes  sha256 3b66659f0552de02f057c96f8d6ce4ada9eb471d193d8d157ef03f356a654d2a
+  EXCPT.H            3343 bytes  sha256 148c28c5fe180f31e022e1f8d99d8c5fe1ffcbb3e182a82fd30396df32e912fd
+  FCNTL.H            2122 bytes  sha256 02d499941ff7a30c58fa46f39a069f3f6c6c27b42d52ddf300b2dc247e26db2b
+  IO.H               6301 bytes  sha256 f7149a0d2a778db23731615532e626534524f30f52d4ecb2ca0a7508e10886f4
+  LIMITS.H           3729 bytes  sha256 37c7d86631d646e7ada4605a77cf710b14ef118f1f612329a0473d89fe762415
+  MALLOC.H           3131 bytes  sha256 9b8c89cf8a237aef1971d7226f35fa2dcdefc5f6ada4a0fc3f87569e0146cdf0
+  MEMORY.H           2194 bytes  sha256 8daac350321d72775365fe9f56b3ef8df0c870166091ab3179cb92b3f044c11a
+  STDARG.H           3173 bytes  sha256 aa3780a1b58372a5932917a6f6a77ffcb562375db9d85366025de5888956bbe4
+  STDDEF.H           2258 bytes  sha256 e010c865365a54629225a17ff47710d061de1255442f912dd60267480c857f67
+  STDIO.H           11292 bytes  sha256 4aa93e84f2ed4293b97f2a59450fd1426246fab3ab8321515e6a628066a9bc74
+  STDLIB.H          15217 bytes  sha256 c4a1e62b4b12c3198a4884bccf469128ee45a9b7ae0185ce1ab4d40206769877
+  STRING.H           7905 bytes  sha256 56d366d5765ad77a859325e3e3f7b4003ce3f5eb49c30369ec921e640eeda94c
+  SYS\STAT.H         3548 bytes  sha256 7b7c2e6580c0b2621735a1a1fe0fe6f3f19ce14cebc8db4b001d768381e0687f
+  WINPERF.H         27047 bytes  sha256 b796e0c51fe699d2a43abcd9a6cf6c651bfe0855df9225b25fac8c3138ac2336
+  WINSVC.H          19244 bytes  sha256 43911c385d9cea77e8d5a20379e01e971443ad6b3201625af57e6d6e3e10cc89

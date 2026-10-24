@@ -1,0 +1,57 @@
+Files to place in this folder (WIN32SDK\INCLUDE\) - see BUILDING.md, section 1.
+
+From the Win32 SDK of July 1996 (Microsoft Developer Network Development Platform),
+its MSTOOLS\INCLUDE folder:
+the Windows headers the build's C files and MK3W.RC include (ahead of
+Visual C++ 2.0's own).
+
+  CDERR.H            2197 bytes  sha256 766094b2424e1b7159e0d4a9089d60aac07859a0785d6c60a8ec3ebcbba38400
+  CGUID.H            3499 bytes  sha256 32c1913ac0dcbbf4526b19e8771984fbafdbcb558b67306ec30166262958c444
+  COMMDLG.H         28192 bytes  sha256 0a684f0c6fa1c8fef4162e509b7f6730d0249108b112abebaa7d4bf8207bda8a
+  DDE.H              5030 bytes  sha256 391fcb45d6a57995da94bd0b22435dc1d6d3442fe363f601221e19ce6a6ffac2
+  DDEML.H           17737 bytes  sha256 15e3ed69090cc33e799a5fbdb46e936ad4642674602e2e021b1b1d5918359906
+  DLGS.H             5895 bytes  sha256 5175df178bea90f4878512069c48f07e1975d0142d44f45a0822f955ab79ce24
+  IMM.H             21439 bytes  sha256 3f06535ee7dbcf2b3cb4da1f6049903f91e08c263109953d5f66b72bcb4078b3
+  LZEXPAND.H         1679 bytes  sha256 a425be116f26a76708161a4ce687ab3cd3d4aa60efae9cb818f5498a60b9c452
+  MCX.H              3930 bytes  sha256 1298ae035237b8395101b304021beae453e7682adfa8a462ecd70991ba2a65cf
+  MMREG.H           69889 bytes  sha256 ec5297470808ac8909cabde120ba8a75e4014aa41d5b8cbc7ec236447c67bb5e
+  MMSYSTEM.H       154496 bytes  sha256 3ba7c98ffc53b070a60d3ea18fb3b0cdb4c0ceb1743fad6239d6dda9cb8c09f0
+  MSACM.H           58508 bytes  sha256 618f3739acb35392f685c8f3da0861999753310dde118d2b5b0f5f5e5c0e7077
+  NB30.H            12693 bytes  sha256 da5a91a862ef60221568a64ef37d73e4f0856c044b9175fbc02d8d372e618ea6
+  OAIDL.H          116259 bytes  sha256 22f25671b72ffe8bc76ede0d8c4cc8750fe88c740f0d47da969496d0b9da62ae
+  OBJBASE.H         20488 bytes  sha256 58ed89214f9640a3d726776eebadfd4eec3bc2bef25aaf458824f0c5c04458ff
+  OBJIDL.H         231933 bytes  sha256 a8fbe100619865aebeda6053d865d6a9eca51e61f97ac8b3f2f0cad5d7f249bc
+  OLE2.H            10537 bytes  sha256 21ba19dd8be7a05a4b7a2dddce90cb4bb945c47b5bcdc7eda4a94651874194ef
+  OLEAUTO.H         23437 bytes  sha256 1107b36beffe3d90df346762aa2bf68eee0b39c63a96268e1773ba05a06f54ae
+  OLEIDL.H         149533 bytes  sha256 147cd1c879cd52d4c6fa30d84b6fa8f4d39b4680e3dc007f2caae595ab69cb74
+  POPPACK.H          1021 bytes  sha256 2364384b843b5612f325cb6f6840c5b2ecb6ff4ac358511c40090c800aaa3d04
+  PRSHT.H           12564 bytes  sha256 79a8e4f99f0175f10d7374c21f1fdadc3a262e1946aa3eeb845902a96ea75962
+  PSHPACK1.H          906 bytes  sha256 e07b4f27c0eedb9e825a88bfae60badecdef3871f3bf6fd28779d1debc2a8962
+  PSHPACK2.H          906 bytes  sha256 67064a18f354d8dea491545294c3b01324602a9742fa7138388dc4065b74941c
+  PSHPACK4.H          875 bytes  sha256 f8b872f10880bea7884406a9c4ab4e98fdf2a7bd19f3eb8923ae30ae22f51c92
+  PSHPACK8.H          906 bytes  sha256 e241abb9c768a8fee2f9485ab46f54f3a07e8f1bdc203aa5cceeff8afde43a18
+  RPC.H              1880 bytes  sha256 35382ea7b81de144c9bbe2f01bcd08c63d666b7b40a5e073efdffcde95752bc5
+  RPCDCE.H          35336 bytes  sha256 f0da5b5b29bced200b084e26b292ce26b69ae9d9eda610053197beeb0ca360ad
+  RPCDCEP.H          8907 bytes  sha256 a106c93b70f420881096a9e453db2e036d9869354b416831269e8fa969f91eda
+  RPCNDR.H          65840 bytes  sha256 246367702e804ed32e7d0caf85da6fe896a849d5485712c097bc16ea979c2441
+  RPCNSI.H          14654 bytes  sha256 a5b25a64e861d92170bdef3e3b570c93cf67d63453cf6ff8dcb24f89ae3d8152
+  RPCNSIP.H          1176 bytes  sha256 4744eac7aa52bcac5da521f013db1c2c2ddc991bcd1fcf3b1daf7326d4a0d939
+  RPCNTERR.H         1569 bytes  sha256 5bd62ed92069051319c4ec5fd9c1e820313dcc0b9e896aabdde279543cb40cf2
+  SHELLAPI.H        18775 bytes  sha256 ecf6e9bbf7dbe853f097433cf2c498fb3545dacb7fd566bcafc43c4f1e637de0
+  UNKNWN.H           8193 bytes  sha256 ad5f74fa39293a268228d0593ee1e33bc289a961a35219a29241cbe420c46220
+  WINBASE.H        132188 bytes  sha256 0ef2f42a069d9e9090c7681b82f97bb885d42f15bf936c39427560cf8b3b79a0
+  WINCON.H          14592 bytes  sha256 d87052e10f3783ff001e97e2adec829df35b28c2cff4de61a1bf6bff7254bf54
+  WINDEF.H           7138 bytes  sha256 5f276cb8f48a14b113381f5f892ea593cee625238c1cd80433908064a028b454
+  WINDOWS.H          4616 bytes  sha256 ff522f9cf6d7a7457e19281ff591d8ec5aa4ace42678cebcb66263b5453cc5a6
+  WINDOWSX.H        71875 bytes  sha256 8c2d2db0c334e4a73e231d814af960bfa3918e22caf6d4b3c80949ff4f49d135
+  WINERROR.H       174943 bytes  sha256 9f6fbfaa74ce3ff9d54383139b748728ff2878edb6febd98bb314cab9b61edc4
+  WINGDI.H         142596 bytes  sha256 cf8f4e1fa809e9bbf0720befd6ab92f1834a3e3371231f77ad77f7647bc2d637
+  WINNETWK.H        22335 bytes  sha256 8f9a36c160374ee807ebeb5704c9eec99077a8450a3a4321fb4f56dddf834291
+  WINNLS.H          38724 bytes  sha256 0a6667edcb0a4fc652329d53f014f08e0348f8fdc9a2154278c9bd5873696548
+  WINNT.H          165044 bytes  sha256 1a558b6926b8414eba9cb3e34c68b7885ca2d45003e16261195144f66081abec
+  WINREG.H          14246 bytes  sha256 9d5b647bdabe2254fd62780577d1d759fc819ade28df62c46f9e62d854eb3af2
+  WINSOCK.H         32171 bytes  sha256 fe98e407f6729db432b38ae85c0e7ca0d4bd37468044002475e0cbe45dc0b8af
+  WINSPOOL.H        49056 bytes  sha256 682454e8aa0146fd0c8159abcf08a687d9d2ca2cd215ad125d6c2945e67dd2bf
+  WINUSER.H        188362 bytes  sha256 4a52a861d5683c6bf4b3cc563ecc8aacae88e87d62ebfa0e1377126e57bd5956
+  WINVER.H           9504 bytes  sha256 1b6d372b0116d5e2d6176f361e219913db69cf81328a49e5e15ec6fed42dcced
+  WTYPES.H          19290 bytes  sha256 cbf5a36904cdaae9106a77336c78172994bee634d7b1ba12c12a087613ef5d04

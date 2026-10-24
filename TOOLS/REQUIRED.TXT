@@ -1,0 +1,7 @@
+Files to place in this folder (TOOLS\) - see BUILDING.md, section 1.
+
+JWasm 2.20 (Windows build), https://github.com/Baron-von-Riedesel/JWasm/releases
+(it runs through Wine on Linux and macOS):
+
+  JWasm.exe        312320 bytes  sha256 ce95d1a4e83b2cba74fadffdf1f009438e668a30f6314c93d7b044e55be7ecee
+      assembles WIN95\BLIT.ASM and WIN95\FLIC\*.ASM

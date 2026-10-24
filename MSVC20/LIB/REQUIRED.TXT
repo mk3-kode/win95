@@ -1,0 +1,18 @@
+Files to place in this folder (MSVC20\LIB\) - see BUILDING.md, section 1.
+
+From Microsoft Visual C++ 2.0 (32-bit edition, 2.00.4244, 1994), the CD's MSVC20\LIB folder:
+
+  ADVAPI32.LIB     201884 bytes  sha256 8b5bbe79ed4c8593d2caba4132fe19f34409efe2a3982a28ebc5860353b13bed
+      import library
+  GDI32.LIB        221476 bytes  sha256 9ee676b1a75d9be4157b662bdf18fe9583893f6711b22f0ec2e2f66925d99b61
+      import library
+  KERNEL32.LIB     427422 bytes  sha256 30d6729787d58b5aaefe0cd7e4cfbc55725e9711207dfa17325f7c99afe57c55
+      import library
+  LIBC.LIB         734716 bytes  sha256 5b327450b4a5d9e3859d953d3fee1e35fdea250aa5fa5e8f33c866148092c64c
+      C run-time library (the objects' default library)
+  MSACM32.LIB       30290 bytes  sha256 53740762b61c653e780a747b777ccb88cc8689e0ceaef1d32df2dbe6a7680731
+      import library
+  OLDNAMES.LIB      56646 bytes  sha256 0ab8b877b49fa2666aeace7e71748d9c9cdb63ed024dcf5e9baffd02b8afe250
+      old run-time names (the objects' default library)
+  USER32.LIB       374604 bytes  sha256 763cedcbd804fcd1f4cc5e167f87a1e50e664b20b195d7bd5bb6166287233c5f
+      import library

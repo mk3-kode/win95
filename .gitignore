@@ -1,0 +1,17 @@
+# Tools the builder supplies (see BUILDING.md): only the folders and the
+# REQUIRED.TXT in each, which lists what goes there, are tracked
+/MSVC20/**
+!/MSVC20/**/
+!/MSVC20/**/REQUIRED.TXT
+/DXSDK/**
+!/DXSDK/**/
+!/DXSDK/**/REQUIRED.TXT
+/WIN32SDK/**
+!/WIN32SDK/**/
+!/WIN32SDK/**/REQUIRED.TXT
+/TOOLS/*
+!/TOOLS/REQUIRED.TXT
+
+# Build output (mk3w.exe holds retail data: the game's art and sound tables)
+/TMP/
+/OUT/

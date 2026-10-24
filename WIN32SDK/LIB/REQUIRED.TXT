@@ -1,0 +1,7 @@
+Files to place in this folder (WIN32SDK\LIB\) - see BUILDING.md, section 1.
+
+From the Win32 SDK of July 1996 (Microsoft Developer Network Development Platform),
+its MSTOOLS\LIB\I386 folder:
+
+  WINMM.LIB        183766 bytes  sha256 95b907366711ff88b539d83fca956a53841724660a4c09923c450f9c688a41a2
+      import library: retail's import hints are this one's, not Visual C++ 2.0's

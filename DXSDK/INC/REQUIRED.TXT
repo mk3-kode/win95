@@ -1,0 +1,9 @@
+Files to place in this folder (DXSDK\INC\) - see BUILDING.md, section 1.
+
+From the DirectX 2 SDK (Microsoft Developer Network Development Platform, July 1996, disc 1),
+its DIRECTX2\SDK\INC folder:
+
+  DDRAW.H          110021 bytes  sha256 7980004a2431b24e375b2e90a094a91e95aab9589a23ca90c1bda5e8ba809ca7
+      DirectDraw
+  DSOUND.H          13417 bytes  sha256 bd8ebbba4268f1b8e9688547811d763dd2ac40e22dfb8e3c44a65f9f3f4e8d12
+      DirectSound

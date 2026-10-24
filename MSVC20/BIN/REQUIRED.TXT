@@ -1,0 +1,35 @@
+Files to place in this folder (MSVC20\BIN\) - see BUILDING.md, section 1.
+
+From Microsoft Visual C++ 2.0 (32-bit edition, 2.00.4244, 1994), the CD's MSVC20\BIN folder:
+
+  C1.EXE           318464 bytes  sha256 35ee6187db994beb90d1028df9dbd332fc308f5f687cfb01d0d8364b349cf361
+      C front end
+  C1XX.EXE         673792 bytes  sha256 3e414c1148884ec9945c81fb8445fb42fb8940102a39ed5777fe4dfbe13adb97
+      C++ front end (the layer's -Od files were compiled as C++)
+  C2.EXE           517632 bytes  sha256 f28504956bc659c81853a67cbfaa34dfe6bfcd56a7218c8f3d648f266e0fd8f7
+      code generator
+  CL.EXE            33280 bytes  sha256 6e8a2add9b8c8ff8ec02be83ede80e142fbae402cfefeba42b88a28263692678
+      compiler driver (C/C++ 9.00)
+  CVTRES.EXE        24768 bytes  sha256 f4e5f6c128ab2110daeca08ded5dcc89ac2ec4d03f2f5a5332160fc170fe20ed
+      resource converter (LINK runs it for MK3W.RES)
+  DBI.DLL           67584 bytes  sha256 d8c6180a72ef272e42b0f393ba1f2030c56d7d3ce301280e21f142b48f8cb2ae
+      used by C1, C1XX and LINK
+  LINK.EXE         420352 bytes  sha256 33471e01276cd80141e32610f531fdae2ddec4f5ded4870ce2fc52b69c8e7dd7
+      linker (LINK 2.50)
+  MSVCRT20.DLL     243200 bytes  sha256 e93215473c8dda1add068bbeb7f0f168084ab2aff57f0a367176884a282eb55e
+      Visual C++ 2.0's run-time DLL: LINK must use this one (BUILDING.md)
+  RC.EXE            16336 bytes  sha256 294e6f3ec5b6cffb03f9494f1ae35ef43dd1fe660f00111e7a8916edc77032c5
+      resource compiler
+  RCDLL.DLL         97056 bytes  sha256 4fa6bdd7f60749d54a57e592ae0505914dd3a5cf3816cbc8bfe04be6e02c5742
+      used by RC.EXE
+
+Optional, from the same folder: the tools' message texts. They are read only to
+print a warning or an error; without them, a failing step reports that the
+file is missing instead of its message.
+
+  C1.ERR            72064 bytes  sha256 24923d8f9c1707b78d2ed7fe97b08f6eaa924960e0b04ead7556ea51105915df
+      front-end messages
+  C23.ERR            6466 bytes  sha256 ca65303033079fe605763ca911b51c1ae155e445e5451408e1ab6a1ef77a8698
+      code-generator messages
+  LINK.ERR          12980 bytes  sha256 ebd65b914f534054a3d6786eb6de3c4d45cf665f5fa6f9c0a68a00403a2a62e6
+      linker messages
